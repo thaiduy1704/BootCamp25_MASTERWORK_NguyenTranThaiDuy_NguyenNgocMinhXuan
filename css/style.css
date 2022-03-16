@@ -11179,6 +11179,7 @@ h3, .h3 {
 }
 
 p {
+  max-width: 750px;
   color: #5a5a5a;
   font-size: 1.8rem;
   line-height: 28px;
@@ -11219,7 +11220,7 @@ p {
   width: 3rem;
 }
 
-.about {
+.carousel {
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -11238,8 +11239,103 @@ p {
   align-items: center;
   padding-top: 5rem;
 }
-.about__image {
+.carousel__image {
   transform: rotate(180deg);
+}
+
+.business {
+  background-color: white;
+}
+.business__text p {
+  font-size: 1.6rem;
+}
+.business img {
+  max-width: 8rem;
+  margin-bottom: 2rem;
+}
+.business__card {
+  background-color: #f7f9fc;
+  border-radius: 15px;
+  padding: 5.5rem 2rem;
+  margin: 2rem 1.5rem;
+  transition: 0.3s ease-in;
+}
+.business__card h3, .business__card .h3 {
+  font-size: 2.6rem;
+  line-height: 35px;
+  font-weight: 700;
+}
+.business__card p {
+  margin-top: 15px;
+  font-size: 1.6rem;
+  line-height: 24.5px;
+}
+.business__card:hover {
+  background-color: white;
+  border: 1px solid #eee;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+  transform: translateY(-0.5rem);
+}
+
+.about {
+  background-color: #f7f9fc;
+}
+.about__image {
+  margin-top: 4rem;
+  border-radius: 6px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  transition: 0.3s ease-in-out;
+}
+.about__image:hover {
+  transform: translateY(-0.5rem);
+}
+.about__card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 5.5rem 2rem;
+  margin: 2rem 1rem;
+  transition: 0.3s ease-in;
+}
+.about__card h4, .about__card .h4 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 24.5px;
+  margin-bottom: 0.5rem;
+}
+.about__card h5, .about__card .h5 {
+  color: #dc4f72;
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+.about__card:hover {
+  border: 1px solid #eee;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+  transform: translateY(-0.5rem);
+}
+
+.stats {
+  background-size: cover;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.33)), url(../../images/bg.jpg);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 480px;
+  display: grid;
+  align-items: center;
+}
+.stats h2, .stats .h2 {
+  font-size: 3rem;
+  color: white;
+  line-height: 36px;
+  font-weight: 700;
+}
+.stats p {
+  font-size: 1.5rem;
+  color: #eee;
+}
+.stats button {
+  color: black;
+  background-color: white;
 }
 
 .nav-item .nav-link.primary-btn {
@@ -11328,6 +11424,10 @@ p {
 .tag.purple-tag {
   background: rgba(0, 0, 255, 0.2);
   color: #0000ff;
+}
+
+.bold {
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */
