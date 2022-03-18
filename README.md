@@ -5,6 +5,7 @@
 </p>
 <h1 align="center">
     Đồ án nhóm : MASTERWORK 
+ 
 </h1>
 
 <h2>
@@ -31,6 +32,26 @@
       <tr>
        <td>Nguyễn Trần Thái Duy</td>
        <td>https://github.com/thaiduy1704</td>
+     </tr>
+      <tr>
+       <td>Nguyễn Ngọc Minh Xuân </td>
+        <td>https://github.com/MinhXuanNguyenNgoc</td>
+        </tr>
+      
+</table>
+<h2>
+   Phân công công việc 
+</h2>
+
+<table align="center">
+      <tr>
+       <th>Họ và Tên</th>
+       <th>Công việc</th>
+       <th>Tiến độ</th>
+       </tr>
+      <tr>
+       <td>Nguyễn Trần Thái Duy</td>
+       <td>Header<br>Carousel </td>
      </tr>
       <tr>
        <td>Nguyễn Ngọc Minh Xuân </td>
