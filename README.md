@@ -51,7 +51,9 @@
        </tr>
       <tr>
        <td>Nguyễn Trần Thái Duy</td>
-       <td>Header<br>Carousel </td>
+       <td align="center" >Header<br>Carousel<br> Business<br> About<br> Stats<br> Solution<br> BackToTop<br> Deloy ReadMe</td>
+       <td>
+[![Status](https://img.shields.io/badge/status-woking-brightgreen?style=flat-square)](https://github.com/thaiduy1704/TEAM-MASTERWORK)</td>
      </tr>
       <tr>
        <td>Nguyễn Ngọc Minh Xuân </td>
