@@ -54,7 +54,7 @@
       </tr>
       <tr>
        <td>Nguyễn Ngọc Minh Xuân </td>
-        <td>FAQ<br> FEATURE<br> TESTIMONIAL<br> ACTION FOOTER</td>
+        <td align="right">Faq<br> Feature<br> Testimonial<br> Action<br> Footer</td>
         </tr>
       
 </table>
