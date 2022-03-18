@@ -35,3 +35,21 @@
   right: 0;
   margin-top: 0;
 }
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 40px;
+  height: 5px;
+  margin: 5px 5px;
+  background: #fff;
+  display: block;
+  border: none;
+
+  transition: opacity 0.2s ease;
+  border-radius: 0;
+  position: relative;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: $primary;
+}

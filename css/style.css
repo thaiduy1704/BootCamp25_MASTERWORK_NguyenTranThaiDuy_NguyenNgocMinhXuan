@@ -11253,12 +11253,16 @@ p {
   max-width: 8rem;
   margin-bottom: 2rem;
 }
+.business .business__content .no-border {
+  border: none;
+}
 .business__card {
   background-color: #f7f9fc;
   border-radius: 15px;
   padding: 5.5rem 2rem;
   margin: 2rem 1.5rem;
   transition: 0.3s ease-in;
+  cursor: pointer;
 }
 .business__card h3, .business__card .h3 {
   font-size: 2.6rem;
@@ -11289,12 +11293,16 @@ p {
 .about__image:hover {
   transform: translateY(-0.5rem);
 }
+.about .about__content .no-border {
+  border: none;
+}
 .about__card {
   background-color: white;
   border-radius: 15px;
   padding: 0rem 2rem;
   margin: 2rem 1rem;
   transition: 0.3s ease-in;
+  cursor: pointer;
 }
 .about__card h4, .about__card .h4 {
   font-size: 1.6rem;
@@ -11466,17 +11474,6 @@ p {
   background-position: center;
   background-attachment: fixed;
   position: relative;
-}
-.testimonial .carousel-indicators {
-  position: absolute;
-  top: 103%;
-}
-.testimonial .carousel-indicators button {
-  color: white;
-  height: 5px;
-}
-.testimonial .carousel-indicators button.active {
-  background-color: #dc4f72;
 }
 .testimonial__card {
   background-color: white;
@@ -11665,6 +11662,23 @@ p {
   margin-top: 0;
 }
 
+.owl-theme .owl-dots .owl-dot span {
+  width: 40px;
+  height: 5px;
+  margin: 5px 5px;
+  background: #fff;
+  display: block;
+  border: none;
+  transition: opacity 0.2s ease;
+  border-radius: 0;
+  position: relative;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #dc4f72;
+}
+
 .bold {
   font-weight: 700;
 }
@@ -11688,6 +11702,10 @@ img.img-curve {
   background: #f3f6f9;
   border-radius: 50%;
   border: 3px solid #dc4f72;
+}
+
+.no-border {
+  border: none;
 }
 
 /*# sourceMappingURL=style.css.map */

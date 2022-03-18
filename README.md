@@ -1,6 +1,6 @@
 <p align="center">
    <a href="https://cybersoft.edu.vn/">
-      <img src="./images/logoCyber.png" border="none">
+      <img src="https://cybersoft.edu.vn/wp-content/uploads/2017/03/MIN-OP1.png" border="none">
    </a>
 </p>
 <h1 align="center">

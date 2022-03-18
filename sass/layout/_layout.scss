@@ -69,12 +69,19 @@
     max-width: 8rem;
     margin-bottom: 2rem;
   }
+
+  & &__content .no-border {
+    border: none;
+  }
+
   &__card {
     background-color: $light-bg-color;
     border-radius: 15px;
     padding: 5.5rem 2rem;
     margin: 2rem 1.5rem;
     transition: 0.3s ease-in;
+    cursor: pointer;
+    // border: none !important;
 
     h3 {
       font-size: 2.6rem;
@@ -108,12 +115,16 @@
       transform: $transformY;
     }
   }
+  & &__content .no-border {
+    border: none;
+  }
   &__card {
     background-color: white;
     border-radius: 15px;
     padding: 0rem 2rem;
     margin: 2rem 1rem;
     transition: 0.3s ease-in;
+    cursor: pointer;
     h4 {
       font-size: 1.6rem;
       font-weight: 700;
@@ -312,20 +323,6 @@
   // .carousel-item {
   //   background-color: transparent;
   // }
-
-  .carousel-indicators {
-    position: absolute;
-    top: 103%;
-  }
-
-  .carousel-indicators button {
-    color: white;
-    height: 5px;
-  }
-
-  .carousel-indicators button.active {
-    background-color: $primary;
-  }
 
   &__card {
     background-color: white;
