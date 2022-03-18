@@ -47,21 +47,18 @@
       <tr>
        <th>Họ và Tên</th>
        <th>Công việc</th>
-       <th>Tiến độ</th>
-       </tr>
+      </tr>
       <tr>
        <td>Nguyễn Trần Thái Duy</td>
        <td align="center" >Header<br>Carousel<br> Business<br> About<br> Stats<br> Solution<br> BackToTop<br> Deloy ReadMe</td>
-       <td>
-[![Status](https://img.shields.io/badge/status-woking-brightgreen?style=flat-square)](https://github.com/thaiduy1704/TEAM-MASTERWORK)</td>
-     </tr>
+      </tr>
       <tr>
        <td>Nguyễn Ngọc Minh Xuân </td>
-        <td>https://github.com/MinhXuanNguyenNgoc</td>
+        <td>FAQ<br> FEATURE<br> TESTIMONIAL<br> ACTION FOOTER</td>
         </tr>
       
 </table>
 
 <h2>
-  Link trang web  : 
+  Link trang web  : https://cybersoft-masterwork.netlify.app/
 </h2>
